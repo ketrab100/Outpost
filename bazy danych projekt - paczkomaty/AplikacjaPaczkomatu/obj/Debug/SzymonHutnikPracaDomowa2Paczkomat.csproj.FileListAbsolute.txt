@@ -1,0 +1,12 @@
+C:\Users\szymo\OneDrive\Pulpit\PWR\KREDEK\Laboratorium 2\praca domowa\SzymonHutnikPracaDomowa2Paczkomat\bin\Debug\SzymonHutnikPracaDomowa2Paczkomat.exe.config
+C:\Users\szymo\OneDrive\Pulpit\PWR\KREDEK\Laboratorium 2\praca domowa\SzymonHutnikPracaDomowa2Paczkomat\bin\Debug\SzymonHutnikPracaDomowa2Paczkomat.exe
+C:\Users\szymo\OneDrive\Pulpit\PWR\KREDEK\Laboratorium 2\praca domowa\SzymonHutnikPracaDomowa2Paczkomat\bin\Debug\SzymonHutnikPracaDomowa2Paczkomat.pdb
+C:\Users\szymo\OneDrive\Pulpit\PWR\KREDEK\Laboratorium 2\praca domowa\SzymonHutnikPracaDomowa2Paczkomat\obj\Debug\SzymonHutnikPracaDomowa2Paczkomat.csprojAssemblyReference.cache
+C:\Users\szymo\OneDrive\Pulpit\PWR\KREDEK\Laboratorium 2\praca domowa\SzymonHutnikPracaDomowa2Paczkomat\obj\Debug\SzymonHutnikPracaDomowa2Paczkomat.Properties.Resources.resources
+C:\Users\szymo\OneDrive\Pulpit\PWR\KREDEK\Laboratorium 2\praca domowa\SzymonHutnikPracaDomowa2Paczkomat\obj\Debug\SzymonHutnikPracaDomowa2Paczkomat.csproj.GenerateResource.cache
+C:\Users\szymo\OneDrive\Pulpit\PWR\KREDEK\Laboratorium 2\praca domowa\SzymonHutnikPracaDomowa2Paczkomat\obj\Debug\SzymonHutnikPracaDomowa2Paczkomat.csproj.CoreCompileInputs.cache
+C:\Users\szymo\OneDrive\Pulpit\PWR\KREDEK\Laboratorium 2\praca domowa\SzymonHutnikPracaDomowa2Paczkomat\obj\Debug\SzymonHutnikPracaDomowa2Paczkomat.exe
+C:\Users\szymo\OneDrive\Pulpit\PWR\KREDEK\Laboratorium 2\praca domowa\SzymonHutnikPracaDomowa2Paczkomat\obj\Debug\SzymonHutnikPracaDomowa2Paczkomat.pdb
+C:\Users\szymo\OneDrive\Pulpit\PWR\KREDEK\Laboratorium 2\praca domowa\SzymonHutnikPracaDomowa2Paczkomat\obj\Debug\SzymonHutnikPracaDomowa2Paczkomat.Forms.FormMain.resources
+C:\Users\szymo\OneDrive\Pulpit\PWR\KREDEK\Laboratorium 2\praca domowa\SzymonHutnikPracaDomowa2Paczkomat\obj\Debug\SzymonHutnikPracaDomowa2Paczkomat.Forms.FormCourier.resources
+C:\Users\szymo\OneDrive\Pulpit\PWR\KREDEK\Laboratorium 2\praca domowa\SzymonHutnikPracaDomowa2Paczkomat\obj\Debug\SzymonHutnikPracaDomowa2Paczkomat.Forms.FormLogIn.resources

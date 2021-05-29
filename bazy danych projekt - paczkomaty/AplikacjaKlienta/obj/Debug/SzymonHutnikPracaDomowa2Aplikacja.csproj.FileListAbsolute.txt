@@ -1,0 +1,15 @@
+C:\Users\szymo\OneDrive\Pulpit\PWR\KREDEK\Laboratorium 2\praca domowa\SzymonHutnikPracaDomowa2\obj\Debug\SzymonHutnikPracaDomowa2Aplikacja.csprojAssemblyReference.cache
+C:\Users\szymo\OneDrive\Pulpit\PWR\KREDEK\Laboratorium 2\praca domowa\SzymonHutnikPracaDomowa2\obj\Debug\SzymonHutnikPracaDomowa2Aplikacja.csproj.GenerateResource.cache
+C:\Users\szymo\OneDrive\Pulpit\PWR\KREDEK\Laboratorium 2\praca domowa\SzymonHutnikPracaDomowa2\obj\Debug\SzymonHutnikPracaDomowa2Aplikacja.csproj.CoreCompileInputs.cache
+C:\Users\szymo\OneDrive\Pulpit\PWR\KREDEK\Laboratorium 2\praca domowa\SzymonHutnikPracaDomowa2\bin\Debug\SzymonHutnikPracaDomowa2Aplikacja.exe.config
+C:\Users\szymo\OneDrive\Pulpit\PWR\KREDEK\Laboratorium 2\praca domowa\SzymonHutnikPracaDomowa2\bin\Debug\SzymonHutnikPracaDomowa2Aplikacja.exe
+C:\Users\szymo\OneDrive\Pulpit\PWR\KREDEK\Laboratorium 2\praca domowa\SzymonHutnikPracaDomowa2\bin\Debug\SzymonHutnikPracaDomowa2Aplikacja.pdb
+C:\Users\szymo\OneDrive\Pulpit\PWR\KREDEK\Laboratorium 2\praca domowa\SzymonHutnikPracaDomowa2\obj\Debug\SzymonHutnikPracaDomowa2Aplikacja.Properties.Resources.resources
+C:\Users\szymo\OneDrive\Pulpit\PWR\KREDEK\Laboratorium 2\praca domowa\SzymonHutnikPracaDomowa2\obj\Debug\SzymonHutnikPracaDomowa2Aplikacja.exe
+C:\Users\szymo\OneDrive\Pulpit\PWR\KREDEK\Laboratorium 2\praca domowa\SzymonHutnikPracaDomowa2\obj\Debug\SzymonHutnikPracaDomowa2Aplikacja.pdb
+C:\Users\szymo\OneDrive\Pulpit\PWR\KREDEK\Laboratorium 2\praca domowa\SzymonHutnikPracaDomowa2\obj\Debug\SzymonHutnikPracaDomowa2Aplikacja.Forms.FormClient.resources
+C:\Users\szymo\OneDrive\Pulpit\PWR\KREDEK\Laboratorium 2\praca domowa\SzymonHutnikPracaDomowa2\obj\Debug\SzymonHutnikPracaDomowa2Aplikacja.Forms.FormLogIn.resources
+C:\Users\szymo\OneDrive\Pulpit\PWR\KREDEK\Laboratorium 2\praca domowa\SzymonHutnikPracaDomowa2\obj\Debug\SzymonHutnikPracaDomowa2Aplikacja.Forms.FormNewUser.resources
+C:\Users\szymo\OneDrive\Pulpit\PWR\KREDEK\Laboratorium 2\praca domowa\SzymonHutnikPracaDomowa2\obj\Debug\SzymonHutnikPracaDomowa2Aplikacja.Forms.FormPackageStatus.resources
+C:\Users\szymo\OneDrive\Pulpit\PWR\KREDEK\Laboratorium 2\praca domowa\SzymonHutnikPracaDomowa2\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\szymo\OneDrive\Pulpit\PWR\KREDEK\Laboratorium 2\praca domowa\SzymonHutnikPracaDomowa2\obj\Debug\SzymonHutnikPracaDomowa2Aplikacja.csproj.CopyComplete
