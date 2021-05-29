@@ -1,0 +1,12 @@
+C:\Users\szymo\OneDrive\Pulpit\PWR\KREDEK\Laboratorium 2\praca domowa\SzymonHutnikPracaDomowa2AplikacjaMenegera\obj\Debug\SzymonHutnikPracaDomowa2AplikacjaMenegera.csprojAssemblyReference.cache
+C:\Users\szymo\OneDrive\Pulpit\PWR\KREDEK\Laboratorium 2\praca domowa\SzymonHutnikPracaDomowa2AplikacjaMenegera\obj\Debug\SzymonHutnikPracaDomowa2AplikacjaMenagera.Forms.FormManager.resources
+C:\Users\szymo\OneDrive\Pulpit\PWR\KREDEK\Laboratorium 2\praca domowa\SzymonHutnikPracaDomowa2AplikacjaMenegera\obj\Debug\SzymonHutnikPracaDomowa2AplikacjaMenagera.Forms.FormLogIn.resources
+C:\Users\szymo\OneDrive\Pulpit\PWR\KREDEK\Laboratorium 2\praca domowa\SzymonHutnikPracaDomowa2AplikacjaMenegera\obj\Debug\SzymonHutnikPracaDomowa2AplikacjaMenagera.Forms.FormNewUser.resources
+C:\Users\szymo\OneDrive\Pulpit\PWR\KREDEK\Laboratorium 2\praca domowa\SzymonHutnikPracaDomowa2AplikacjaMenegera\obj\Debug\SzymonHutnikPracaDomowa2AplikacjaMenagera.Properties.Resources.resources
+C:\Users\szymo\OneDrive\Pulpit\PWR\KREDEK\Laboratorium 2\praca domowa\SzymonHutnikPracaDomowa2AplikacjaMenegera\obj\Debug\SzymonHutnikPracaDomowa2AplikacjaMenegera.csproj.GenerateResource.cache
+C:\Users\szymo\OneDrive\Pulpit\PWR\KREDEK\Laboratorium 2\praca domowa\SzymonHutnikPracaDomowa2AplikacjaMenegera\obj\Debug\SzymonHutnikPracaDomowa2AplikacjaMenegera.csproj.CoreCompileInputs.cache
+C:\Users\szymo\OneDrive\Pulpit\PWR\KREDEK\Laboratorium 2\praca domowa\SzymonHutnikPracaDomowa2AplikacjaMenegera\bin\Debug\SzymonHutnikPracaDomowa2AplikacjaMenagera.exe.config
+C:\Users\szymo\OneDrive\Pulpit\PWR\KREDEK\Laboratorium 2\praca domowa\SzymonHutnikPracaDomowa2AplikacjaMenegera\bin\Debug\SzymonHutnikPracaDomowa2AplikacjaMenagera.exe
+C:\Users\szymo\OneDrive\Pulpit\PWR\KREDEK\Laboratorium 2\praca domowa\SzymonHutnikPracaDomowa2AplikacjaMenegera\bin\Debug\SzymonHutnikPracaDomowa2AplikacjaMenagera.pdb
+C:\Users\szymo\OneDrive\Pulpit\PWR\KREDEK\Laboratorium 2\praca domowa\SzymonHutnikPracaDomowa2AplikacjaMenegera\obj\Debug\SzymonHutnikPracaDomowa2AplikacjaMenagera.exe
+C:\Users\szymo\OneDrive\Pulpit\PWR\KREDEK\Laboratorium 2\praca domowa\SzymonHutnikPracaDomowa2AplikacjaMenegera\obj\Debug\SzymonHutnikPracaDomowa2AplikacjaMenagera.pdb
