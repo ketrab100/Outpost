@@ -1,10 +1,13 @@
-﻿using Oracle.ManagedDataAccess.Client;
+﻿using AngleSharp.Html.Dom;
+using Oracle.ManagedDataAccess.Client;
 using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
 using System.Linq;
 using System.Threading.Tasks;
+
+
 
 namespace Test.Models
 {
@@ -22,5 +25,24 @@ namespace Test.Models
             sqlDataAdapter.Fill(dataTable);
             return dataTable;
         }
+
+
+        public void addParcel(Parcel p)
+        {
+
+
+            Random rand = new Random();
+            int pickupCode = (Math.Abs(rand.Next() * rand.Next() + 1000000) % 10000000);
+
+            String query = "INSERT INTO PARCELS VALUES ( 'PC210521WAR1N1' " + "," +p.Type + ", NULL" + ", NULL" + ",2" + ",2" + ",3" + ", NULL" + ", NULL, 7, " + 3 + ", NULL)";
+
+            sqlConnection.Open();
+            OracleCommand commandInsertBook = new OracleCommand(query, sqlConnection);
+
+            commandInsertBook.ExecuteNonQuery();
+
+            sqlConnection.Close();
+        }
+
     }
 }

@@ -34,11 +34,22 @@ namespace Test.Controllers
             DataTable dt = r.test("PARCELS");
             return View(dt);
         }
+        [HttpGet]
         public IActionResult Package()
         {
-            return View("Package");
+            Parcel p = new Parcel();
+            return View(p);
         }
-     
+
+        [HttpPost]
+        public IActionResult Package(Parcel p)
+        {
+            Repository r = new Repository();
+            r.addParcel(p);
+            ViewBag.client = p;
+            return View("PackageSummary");
+        }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
