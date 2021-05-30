@@ -1,25 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\milos\\source\\repos\\DatabaseWebsite2\\DatabaseWebsite2.csproj": {}
+    "C:\\Users\\Bartek\\Documents\\GitHub\\outpost\\strona\\DatabaseWebsite2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\milos\\source\\repos\\DatabaseWebsite2\\DatabaseWebsite2.csproj": {
+    "C:\\Users\\Bartek\\Documents\\GitHub\\outpost\\strona\\DatabaseWebsite2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\milos\\source\\repos\\DatabaseWebsite2\\DatabaseWebsite2.csproj",
+        "projectUniqueName": "C:\\Users\\Bartek\\Documents\\GitHub\\outpost\\strona\\DatabaseWebsite2.csproj",
         "projectName": "DatabaseWebsite2",
-        "projectPath": "C:\\Users\\milos\\source\\repos\\DatabaseWebsite2\\DatabaseWebsite2.csproj",
-        "packagesPath": "C:\\Users\\milos\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\milos\\source\\repos\\DatabaseWebsite2\\obj\\",
+        "projectPath": "C:\\Users\\Bartek\\Documents\\GitHub\\outpost\\strona\\DatabaseWebsite2.csproj",
+        "packagesPath": "C:\\Users\\Bartek\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Bartek\\Documents\\GitHub\\outpost\\strona\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\milos\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\Bartek\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -75,7 +75,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }
