@@ -1,6 +1,6 @@
-﻿@model Parcel
+﻿@model User
 @using Test.Models
-@using (Html.BeginForm("Package", "Home", FormMethod.Post))
+@using (Html.BeginForm("Index", "Home", FormMethod.Post))
 {
     @Html.AntiForgeryToken()
     <!DOCTYPE html>
@@ -54,14 +54,16 @@
         <section class="section section-light">
             <h2>Sign in</h2>
             <label class="input">
-                <input type="text" placeholder="Login" required />
+                @Html.LabelFor(model => model.Login, htmlAttributes: new { @class = "input" })
+                @Html.EditorFor(model => model.Login)
             </label>
             <label class="input">
-                <input type="text" placeholder="Password" required />
+                @Html.LabelFor(model => model.Password, htmlAttributes: new { @class = "input" })
+                @Html.EditorFor(model => model.Password)
             </label>
             <span class="user">
                 <a href="#" onclick="" id="signin">
-                    <i class="fa fa-sign-in" aria-hidden="true"></i>
+                    <input id="send" type="submit" value="Zaloguj" class="btn btn-succes" />
                 </a>
             </span>
 

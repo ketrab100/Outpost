@@ -12,6 +12,6 @@ namespace Test.Models
 
         public int PickUpCode { get; set; }
 
-        public int Code { get; set; }
+        public string Code { get; set; }
     }
 }
