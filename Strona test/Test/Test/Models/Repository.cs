@@ -27,13 +27,15 @@ namespace Test.Models
         }
 
 
-        public void addParcel(Parcel p)
+        public void addParcel(Parcel p , User u)
         {
 
             Random rand = new Random();
             int pickupCode = (Math.Abs(rand.Next() * rand.Next() + 1000000) % 10000000);
+            p.PickUpCode = pickupCode;
+            string parcelCode = "C1";
 
-            String query = "INSERT INTO PARCELS VALUES ( 'PC210521WAR1N1' " + "," +p.Type + ", NULL" + ", NULL" + ",2" + ",2" + ",3" + ", NULL" + ", NULL, 7, " + 3 + ", NULL)";
+            String query = "INSERT INTO PARCELS VALUES ( '" +parcelCode +"' ," + p.Type + ", NULL" + ", NULL ," + u.Id +  ",NULL" + ",3" + ", NULL" + ", NULL, 7, " + p.PickUpCode + ", NULL)";
 
             sqlConnection.Open();
             OracleCommand commandInsertBook = new OracleCommand(query, sqlConnection);
@@ -50,6 +52,17 @@ namespace Test.Models
             DataTable dataTable = new DataTable();
             sqlDataAdapter.Fill(dataTable);
             return dataTable.Rows[0][0].ToString();
+        }
+
+        public void deleteParcel(Parcel p)
+        {
+            String query = "DELETE FROM PARCELS WHERE CODE = '" + p.Code +"' AND " + "PICKUPCODE = " + p.PickUpCode;
+            sqlConnection.Open();
+            OracleCommand commandInsertBook = new OracleCommand(query, sqlConnection);
+
+            commandInsertBook.ExecuteNonQuery();
+
+            sqlConnection.Close();
         }
 
     }

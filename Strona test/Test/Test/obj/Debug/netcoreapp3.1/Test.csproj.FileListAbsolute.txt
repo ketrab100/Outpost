@@ -61,7 +61,6 @@ C:\Users\Bartek\Documents\GitHub\outpost\Strona test\Test\Test\bin\Debug\netcore
 C:\Users\Bartek\Documents\GitHub\outpost\Strona test\Test\Test\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\Bartek\Documents\GitHub\outpost\Strona test\Test\Test\obj\Debug\netcoreapp3.1\Razor\Views\Home\Show.cshtml.g.cs
 C:\Users\Bartek\Documents\GitHub\outpost\Strona test\Test\Test\obj\Debug\netcoreapp3.1\Razor\Views\Home\Package.cshtml.g.cs
-C:\Users\Bartek\Documents\GitHub\outpost\Strona test\Test\Test\obj\Debug\netcoreapp3.1\Razor\Views\Home\Personal.cshtml.g.cs
 C:\Users\Bartek\Documents\GitHub\outpost\Strona test\Test\Test\bin\Debug\netcoreapp3.1\AngleSharp.dll
 C:\Users\Bartek\Documents\GitHub\outpost\Strona test\Test\Test\bin\Debug\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll
 C:\Users\Bartek\Documents\GitHub\outpost\Strona test\Test\Test\bin\Debug\netcoreapp3.1\System.Text.Encoding.CodePages.dll
@@ -137,3 +136,6 @@ C:\Users\milos\OneDrive - Politechnika Wroclawska\Dokumenty\GitHub\outpost\outpo
 C:\Users\milos\OneDrive - Politechnika Wroclawska\Dokumenty\GitHub\outpost\outpost\Strona test\Test\Test\obj\Debug\netcoreapp3.1\Test.genruntimeconfig.cache
 C:\Users\milos\OneDrive - Politechnika Wroclawska\Dokumenty\GitHub\outpost\outpost\Strona test\Test\Test\obj\Debug\netcoreapp3.1\Razor\Views\Home\Pick.cshtml.g.cs
 C:\Users\milos\OneDrive - Politechnika Wroclawska\Dokumenty\GitHub\outpost\outpost\Strona test\Test\Test\obj\Debug\netcoreapp3.1\Razor\Views\Home\CreateAccount.cshtml.g.cs
+C:\Users\Bartek\Documents\GitHub\outpost\Strona test\Test\Test\obj\Debug\netcoreapp3.1\Razor\Views\Home\CreateAccount.cshtml.g.cs
+C:\Users\Bartek\Documents\GitHub\outpost\Strona test\Test\Test\obj\Debug\netcoreapp3.1\Razor\Views\Home\Pick.cshtml.g.cs
+C:\Users\Bartek\Documents\GitHub\outpost\Strona test\Test\Test\obj\Debug\netcoreapp3.1\Razor\Views\Home\test.cshtml.g.cs
