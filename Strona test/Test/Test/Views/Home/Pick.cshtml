@@ -54,37 +54,23 @@
         </div>
 
         <section class="section section-light">
-            <h2>Send</h2>
+            <h2>Pick up parcel</h2>
             <div id="create-account">
                 <label class="input">
-                    @Html.LabelFor(model => model.Type, htmlAttributes: new { @class = "input" })
-                    @Html.EditorFor(model => model.Type)
+                    @Html.LabelFor(model => model.Code, htmlAttributes: new { @class = "input" })
+                    @Html.EditorFor(model => model.Code)
                 </label>
                 <label class="input">
-                    @Html.LabelFor(model => model.Destination, htmlAttributes: new { @class = "input" })
-                    @Html.EditorFor(model => model.Destination)
+                    @Html.LabelFor(model => model.PickUpCode, htmlAttributes: new { @class = "input" })
+                    @Html.EditorFor(model => model.PickUpCode)
                 </label>
-                    <label class="input" id="cost">
-                        <input type="text" placeholder="Cost" readonly />
-                    </label>
             </div>
             <span class="user">
                 <div class="form-group">
-                    <input id="send" type="submit" value="Wyslij" class="btn btn-succes" />
+                    <input type="submit" value="Odbierz" class="btn btn-succes" />
                 </div>
             </span>
-        </section>
 
-        <div class="pimg2">
-            <div class="ptext">
-                <span class="border trans">
-                    Image Two Text
-                </span>
-            </div>
-        </div>
-
-        <section class="section section-dark">
-            <h2>Send package with Outpost</h2>
         </section>
 
         <div class="pimg3">
