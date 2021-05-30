@@ -50,6 +50,13 @@ namespace Test.Controllers
             return View("PackageSummary");
         }
 
+        public IActionResult Pick() {
+            return View();
+        }
+
+        public IActionResult CreateAccount() {
+            return View();
+        }
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {

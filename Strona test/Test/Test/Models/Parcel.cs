@@ -9,5 +9,9 @@ namespace Test.Models
     {
         public int Type { get; set; }
         public int Destination { get; set; }
+
+        public int PickUpCode { get; set; }
+
+        public int Code { get; set; }
     }
 }

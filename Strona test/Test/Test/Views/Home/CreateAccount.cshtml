@@ -22,7 +22,6 @@
             </a>
         </span>
 
-
         <div id="menu" class="nav">
             <a href="#" class="close" onclick="closeSlideMenu()">
                 <i class="fas fa-times"></i>
@@ -42,7 +41,6 @@
             <a href="#" id="button5">
                 <i class="fas fa-times"></i>
             </a>
-
         </div>
 
         <div class="pimg1">
@@ -54,25 +52,33 @@
         </div>
 
         <section class="section section-light">
-            <h2>Send</h2>
+            <h2>Create Account</h2>
             <div id="create-account">
                 <label class="input">
-                    @Html.LabelFor(model => model.Type, htmlAttributes: new { @class = "input" })
-                    @Html.EditorFor(model => model.Type)
+                    <input type="text" placeholder="First name" required />
                 </label>
                 <label class="input">
-                    @Html.LabelFor(model => model.Destination, htmlAttributes: new { @class = "input" })
-                    @Html.EditorFor(model => model.Destination)
+                    <input type="text" placeholder="Last name" required />
                 </label>
-                    <label class="input" id="cost">
-                        <input type="text" placeholder="Cost" readonly />
-                    </label>
+                <label class="input">
+                    <input type="text" placeholder="Email" required />
+                </label>
+                <label class="input">
+                    <input type="text" placeholder="Login" required />
+                </label>
+                <label class="input">
+                    <input type="text" placeholder="Password" required />
+                </label>
+                <label class="input">
+                    <input type="text" placeholder="Telephone number" required />
+                </label>
             </div>
             <span class="user">
-                <div class="form-group">
-                    <input id="send" type="submit" value="Wyslij" class="btn btn-succes" />
-                </div>
+                <a href="#" onclick="" id="signin">
+                    <i class="fa fa-sign-in" aria-hidden="true"></i>
+                </a>
             </span>
+
         </section>
 
         <div class="pimg2">
@@ -84,7 +90,7 @@
         </div>
 
         <section class="section section-dark">
-            <h2>Send package with Outpost</h2>
+            <h2>Create account</h2>
         </section>
 
         <div class="pimg3">
