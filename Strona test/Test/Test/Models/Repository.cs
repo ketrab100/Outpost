@@ -43,5 +43,14 @@ namespace Test.Models
             sqlConnection.Close();
         }
 
+        public string getUserId(User u)
+        {
+            String query = "SELECT USER_ID FROM USERS WHERE LOGIN = '" + u.Login + "' AND PASSWORD ='" + u.Password + "'";
+            OracleDataAdapter sqlDataAdapter = new OracleDataAdapter(query, sqlConnection);
+            DataTable dataTable = new DataTable();
+            sqlDataAdapter.Fill(dataTable);
+            return dataTable.Rows[0][0].ToString();
+        }
+
     }
 }

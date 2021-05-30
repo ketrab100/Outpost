@@ -12,15 +12,27 @@ namespace Test.Controllers
 {
     public class HomeController : Controller
     {
+        User u = new User();
         private readonly ILogger<HomeController> _logger;
 
         public HomeController(ILogger<HomeController> logger)
         {
             _logger = logger;
         }
-
+        [HttpGet]
         public IActionResult Index()
         {
+            return View(u);
+        }
+        [HttpPost]
+        public IActionResult Index(User u)
+        {
+            Repository r = new Repository();
+            r.getUserId(u);
+            if (u.Id == null)
+            {
+
+            }
             return View();
         }
 
@@ -47,8 +59,15 @@ namespace Test.Controllers
             Repository r = new Repository();
             r.addParcel(p);
             ViewBag.client = p;
-            return View("PackageSummary");
+            return null ;
         }
+        /*
+         *[http get]
+        public IActionResult Client()
+        {
+            c = client;
+        }
+        */
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
