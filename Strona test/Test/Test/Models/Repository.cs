@@ -30,7 +30,6 @@ namespace Test.Models
         public void addParcel(Parcel p)
         {
 
-
             Random rand = new Random();
             int pickupCode = (Math.Abs(rand.Next() * rand.Next() + 1000000) % 10000000);
 
