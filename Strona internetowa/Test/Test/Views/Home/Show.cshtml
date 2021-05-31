@@ -1,0 +1,10 @@
+﻿@model System.Data.DataTable
+@using System.Data;
+@foreach (DataRow row in Model.Rows)
+{
+
+    @foreach (DataColumn col in Model.Columns)
+    {
+        @row[0].ToString();
+    }
+}
