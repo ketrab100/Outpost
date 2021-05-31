@@ -12,16 +12,3 @@ C:\Users\szymo\OneDrive\Pulpit\PWR\4 semestr\bazy danych projekt\bazy danych pro
 C:\Users\szymo\OneDrive\Pulpit\PWR\4 semestr\bazy danych projekt\bazy danych projekt - paczkomaty\AplikacjaMenagera\bin\Debug\Oracle.ManagedDataAccess.dll
 C:\Users\szymo\OneDrive\Pulpit\PWR\4 semestr\bazy danych projekt\bazy danych projekt - paczkomaty\AplikacjaMenagera\obj\Debug\AplikacjaMenagera.csprojAssemblyReference.cache
 C:\Users\szymo\OneDrive\Pulpit\PWR\4 semestr\bazy danych projekt\bazy danych projekt - paczkomaty\AplikacjaMenagera\obj\Debug\AplikacjaMenagera.csproj.CopyComplete
-C:\Users\szymo\Dokumenty\GitHub\outpost\bazy danych projekt - paczkomaty\AplikacjaMenagera\bin\Debug\AplikacjaMenagera.exe.config
-C:\Users\szymo\Dokumenty\GitHub\outpost\bazy danych projekt - paczkomaty\AplikacjaMenagera\bin\Debug\AplikacjaMenagera.exe
-C:\Users\szymo\Dokumenty\GitHub\outpost\bazy danych projekt - paczkomaty\AplikacjaMenagera\bin\Debug\AplikacjaMenagera.pdb
-C:\Users\szymo\Dokumenty\GitHub\outpost\bazy danych projekt - paczkomaty\AplikacjaMenagera\obj\Debug\AplikacjaMenagera.csprojAssemblyReference.cache
-C:\Users\szymo\Dokumenty\GitHub\outpost\bazy danych projekt - paczkomaty\AplikacjaMenagera\obj\Debug\AplikacjaMenagera.Forms.FormManager.resources
-C:\Users\szymo\Dokumenty\GitHub\outpost\bazy danych projekt - paczkomaty\AplikacjaMenagera\obj\Debug\AplikacjaMenagera.Forms.FormLogIn.resources
-C:\Users\szymo\Dokumenty\GitHub\outpost\bazy danych projekt - paczkomaty\AplikacjaMenagera\obj\Debug\AplikacjaMenagera.Forms.FormNewUser.resources
-C:\Users\szymo\Dokumenty\GitHub\outpost\bazy danych projekt - paczkomaty\AplikacjaMenagera\obj\Debug\AplikacjaMenagera.Properties.Resources.resources
-C:\Users\szymo\Dokumenty\GitHub\outpost\bazy danych projekt - paczkomaty\AplikacjaMenagera\obj\Debug\AplikacjaMenagera.csproj.GenerateResource.cache
-C:\Users\szymo\Dokumenty\GitHub\outpost\bazy danych projekt - paczkomaty\AplikacjaMenagera\obj\Debug\AplikacjaMenagera.csproj.CoreCompileInputs.cache
-C:\Users\szymo\Dokumenty\GitHub\outpost\bazy danych projekt - paczkomaty\AplikacjaMenagera\obj\Debug\AplikacjaMenagera.csproj.CopyComplete
-C:\Users\szymo\Dokumenty\GitHub\outpost\bazy danych projekt - paczkomaty\AplikacjaMenagera\obj\Debug\AplikacjaMenagera.exe
-C:\Users\szymo\Dokumenty\GitHub\outpost\bazy danych projekt - paczkomaty\AplikacjaMenagera\obj\Debug\AplikacjaMenagera.pdb

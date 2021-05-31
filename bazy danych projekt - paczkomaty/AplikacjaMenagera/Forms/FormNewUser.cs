@@ -62,7 +62,7 @@ namespace AplikacjaMenagera.Forms
                     if (databaseConnection.getValue("PhoneNumber", "Users", "PhoneNumber", "'" + textBoxPhoneNumber.Text + "'") == null)
                     {
                         //adds user (client)
-                        databaseConnection.addElement("Users", "((SELECT MAX(User_Id)+1 FROM Users), '" + textBoxFirstName.Text + "','" + textBoxLastName.Text + "','" + textBoxLogin.Text + "','" + textBoxPassword.Text + "', " + textBoxPhoneNumber.Text + ", 'a@b.pl', '" + comboBoxUserType.SelectedItem.ToString() + "')");
+                        databaseConnection.addElement("Users", "((SELECT MAX(User_Id)+1 FROM Users), '" + textBoxFirstName.Text + "','" + textBoxLastName.Text + "','" + textBoxLogin.Text + "','" + textBoxPassword.Text + "', " + textBoxPhoneNumber.Text + ", '" + comboBoxUserType.SelectedItem.ToString() + "')");
                         MessageBox.Show("tu jakieś potwierdzenie na sms i do potwierdzenia i dopiero wtedy można się zalogować, ale uprościmy do tego tekstu");
                     }
                     else
