@@ -60,6 +60,9 @@ namespace AplikacjaPaczkomatu.Forms
                     else
                         databaseConnection.updateElement("Parcels", "StatusId", "3", "Code", "'" + dataGridViewSelect.SelectedRows[q].Cells["Code"].Value.ToString() + "'");
                 }
+                textBoxName.Text = databaseConnection.getValue("FirstName", "Users", "User_Id", userId) + " " + databaseConnection.getValue("LastName", "Users", "User_Id", userId);
+                dataGridViewSelect.DataSource = databaseConnection.getTableSpecyficQuery("SELECT Parcels.Code, Parcels.DestinationParcelLockerId, Parcels.SentDate, ParcelTypes.Name FROM Parcels JOIN ParcelTypes ON Parcels.TypeId = ParcelTypes.ParcelType_Id WHERE Parcels.ParcelLockerId = " + parcelLockerId);
+                dataGridViewSelect.Columns["Code"].Visible = false;
             }
             else
                 MessageBox.Show("Select before continuing");
@@ -79,7 +82,7 @@ namespace AplikacjaPaczkomatu.Forms
             if (currentCode != null)
             {
                 //if this is correct parcel locker
-                if (parcelLockerId == databaseConnection.getValue("DestinationParcelLockerId", "ParcelLockers", "ParcelLocker_Id", parcelLockerId))
+                if (parcelLockerId == databaseConnection.getValue("DestinationParcelLockerId", "Parcels", "Code","'" + code + "'"))
                 {
                     int lockerNumber = findLockerNumber(currentCode);
 
@@ -89,7 +92,7 @@ namespace AplikacjaPaczkomatu.Forms
                         databaseConnection.updateElement("Parcels", "LockerNumber", lockerNumber.ToString(), "Code", "'" + currentCode + "'");
                         databaseConnection.updateElement("Parcels", "StatusId", "6", "Code", "'" + currentCode + "'");
                         databaseConnection.updateElement("Parcels", "ParcelLockerId", parcelLockerId, "Code", "'" + currentCode + "'");
-                        databaseConnection.updateElement("Parcels", "ParcelLockerId", DateTime.Now.ToString("yyyy-MM-dd"), "Code", "'" + currentCode + "'");
+                        databaseConnection.updateElement("Parcels", "CourierId", "NULL", "Code", "'" + currentCode + "'");
                         MessageBox.Show("Confirm that package is in locker", "Confirmation", MessageBoxButtons.OK);
                     }
                     else
@@ -123,7 +126,7 @@ namespace AplikacjaPaczkomatu.Forms
 
             for (int q = 0; q <= takenLockers.Rows.Count; q++)
             {
-                if (currentLocker == (int)takenLockers.Rows[q][0])
+                if (currentLocker == Int32.Parse(takenLockers.Rows[q][0].ToString()))
                     currentLocker++;
 
                 else

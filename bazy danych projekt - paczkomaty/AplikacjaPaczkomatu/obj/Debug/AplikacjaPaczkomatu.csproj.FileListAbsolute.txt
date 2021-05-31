@@ -12,3 +12,29 @@ C:\Users\szymo\OneDrive\Pulpit\PWR\4 semestr\bazy danych projekt\bazy danych pro
 C:\Users\szymo\OneDrive\Pulpit\PWR\4 semestr\bazy danych projekt\bazy danych projekt - paczkomaty\AplikacjaPaczkomatu\bin\Debug\Oracle.ManagedDataAccess.dll
 C:\Users\szymo\OneDrive\Pulpit\PWR\4 semestr\bazy danych projekt\bazy danych projekt - paczkomaty\AplikacjaPaczkomatu\obj\Debug\AplikacjaPaczkomatu.csprojAssemblyReference.cache
 C:\Users\szymo\OneDrive\Pulpit\PWR\4 semestr\bazy danych projekt\bazy danych projekt - paczkomaty\AplikacjaPaczkomatu\obj\Debug\AplikacjaPaczkomatu.csproj.CopyComplete
+C:\Users\Bartek\Documents\GitHub\outpost\bazy danych projekt - paczkomaty\AplikacjaPaczkomatu\bin\Debug\AplikacjaPaczkomatu.exe.config
+C:\Users\Bartek\Documents\GitHub\outpost\bazy danych projekt - paczkomaty\AplikacjaPaczkomatu\bin\Debug\AplikacjaPaczkomatu.exe
+C:\Users\Bartek\Documents\GitHub\outpost\bazy danych projekt - paczkomaty\AplikacjaPaczkomatu\bin\Debug\AplikacjaPaczkomatu.pdb
+C:\Users\Bartek\Documents\GitHub\outpost\bazy danych projekt - paczkomaty\AplikacjaPaczkomatu\obj\Debug\AplikacjaPaczkomatu.csprojAssemblyReference.cache
+C:\Users\Bartek\Documents\GitHub\outpost\bazy danych projekt - paczkomaty\AplikacjaPaczkomatu\obj\Debug\AplikacjaPaczkomatu.Forms.FormCourier.resources
+C:\Users\Bartek\Documents\GitHub\outpost\bazy danych projekt - paczkomaty\AplikacjaPaczkomatu\obj\Debug\AplikacjaPaczkomatu.Forms.FormLogIn.resources
+C:\Users\Bartek\Documents\GitHub\outpost\bazy danych projekt - paczkomaty\AplikacjaPaczkomatu\obj\Debug\AplikacjaPaczkomatu.Forms.FormMain.resources
+C:\Users\Bartek\Documents\GitHub\outpost\bazy danych projekt - paczkomaty\AplikacjaPaczkomatu\obj\Debug\AplikacjaPaczkomatu.Properties.Resources.resources
+C:\Users\Bartek\Documents\GitHub\outpost\bazy danych projekt - paczkomaty\AplikacjaPaczkomatu\obj\Debug\AplikacjaPaczkomatu.csproj.GenerateResource.cache
+C:\Users\Bartek\Documents\GitHub\outpost\bazy danych projekt - paczkomaty\AplikacjaPaczkomatu\obj\Debug\AplikacjaPaczkomatu.csproj.CoreCompileInputs.cache
+C:\Users\Bartek\Documents\GitHub\outpost\bazy danych projekt - paczkomaty\AplikacjaPaczkomatu\obj\Debug\AplikacjaPaczkomatu.csproj.CopyComplete
+C:\Users\Bartek\Documents\GitHub\outpost\bazy danych projekt - paczkomaty\AplikacjaPaczkomatu\obj\Debug\AplikacjaPaczkomatu.exe
+C:\Users\Bartek\Documents\GitHub\outpost\bazy danych projekt - paczkomaty\AplikacjaPaczkomatu\obj\Debug\AplikacjaPaczkomatu.pdb
+C:\Users\szymo\Dokumenty\GitHub\outpost\bazy danych projekt - paczkomaty\AplikacjaPaczkomatu\bin\Debug\AplikacjaPaczkomatu.exe.config
+C:\Users\szymo\Dokumenty\GitHub\outpost\bazy danych projekt - paczkomaty\AplikacjaPaczkomatu\bin\Debug\AplikacjaPaczkomatu.exe
+C:\Users\szymo\Dokumenty\GitHub\outpost\bazy danych projekt - paczkomaty\AplikacjaPaczkomatu\bin\Debug\AplikacjaPaczkomatu.pdb
+C:\Users\szymo\Dokumenty\GitHub\outpost\bazy danych projekt - paczkomaty\AplikacjaPaczkomatu\obj\Debug\AplikacjaPaczkomatu.csprojAssemblyReference.cache
+C:\Users\szymo\Dokumenty\GitHub\outpost\bazy danych projekt - paczkomaty\AplikacjaPaczkomatu\obj\Debug\AplikacjaPaczkomatu.Forms.FormCourier.resources
+C:\Users\szymo\Dokumenty\GitHub\outpost\bazy danych projekt - paczkomaty\AplikacjaPaczkomatu\obj\Debug\AplikacjaPaczkomatu.Forms.FormLogIn.resources
+C:\Users\szymo\Dokumenty\GitHub\outpost\bazy danych projekt - paczkomaty\AplikacjaPaczkomatu\obj\Debug\AplikacjaPaczkomatu.Forms.FormMain.resources
+C:\Users\szymo\Dokumenty\GitHub\outpost\bazy danych projekt - paczkomaty\AplikacjaPaczkomatu\obj\Debug\AplikacjaPaczkomatu.Properties.Resources.resources
+C:\Users\szymo\Dokumenty\GitHub\outpost\bazy danych projekt - paczkomaty\AplikacjaPaczkomatu\obj\Debug\AplikacjaPaczkomatu.csproj.GenerateResource.cache
+C:\Users\szymo\Dokumenty\GitHub\outpost\bazy danych projekt - paczkomaty\AplikacjaPaczkomatu\obj\Debug\AplikacjaPaczkomatu.csproj.CoreCompileInputs.cache
+C:\Users\szymo\Dokumenty\GitHub\outpost\bazy danych projekt - paczkomaty\AplikacjaPaczkomatu\obj\Debug\AplikacjaPaczkomatu.csproj.CopyComplete
+C:\Users\szymo\Dokumenty\GitHub\outpost\bazy danych projekt - paczkomaty\AplikacjaPaczkomatu\obj\Debug\AplikacjaPaczkomatu.exe
+C:\Users\szymo\Dokumenty\GitHub\outpost\bazy danych projekt - paczkomaty\AplikacjaPaczkomatu\obj\Debug\AplikacjaPaczkomatu.pdb
