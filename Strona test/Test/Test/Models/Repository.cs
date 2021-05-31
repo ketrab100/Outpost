@@ -33,7 +33,13 @@ namespace Test.Models
             Random rand = new Random();
             int pickupCode = (Math.Abs(rand.Next() * rand.Next() + 1000000) % 10000000);
             p.PickUpCode = pickupCode;
-            string parcelCode = "C1";
+
+            //prepare and generate query to insert new package
+            string parcelCode = "P" + getValue("Name", "ParcelTypes", "ParcelType_Id", p.Type.ToString());
+            parcelCode += DateTime.Now.ToString("dd/MM/yy");
+            parcelCode = String.Join("", parcelCode.Split('/'));
+            parcelCode += getValue("Name", "ParcelTypes", "ParcelType_Id", p.Destination.ToString());
+            parcelCode += "N" + (Int32.Parse(getValueLike("COUNT(Code)", "Parcels", "Code", "'" + parcelCode + "%'")) + 1).ToString();
 
             String query = "INSERT INTO PARCELS VALUES ( '" +parcelCode +"' ," + p.Type + ", NULL" + ", NULL ," + u.Id +  ",NULL" + ",3" + ", NULL" + ", NULL, 7, " + p.PickUpCode + ", NULL)";
 
@@ -65,5 +71,51 @@ namespace Test.Models
             sqlConnection.Close();
         }
 
+        /// <summary>
+        /// returns specified value from database using WHERE statement with one argument
+        /// </summary>
+        /// <param name="select"></param>
+        /// <param name="from"></param>
+        /// <param name="whereColumnName"></param>
+        /// <param name="whereValue"></param>
+        /// <returns></returns>
+        public String getValue(string select, string from, string whereColumnName, string whereValue)
+        {
+            String query = "SELECT " + select + " FROM " + from + " ";
+            query += "WHERE " + whereColumnName + " = " + whereValue;
+
+            sqlConnection.Open();
+            OracleCommand sqlCommand = new OracleCommand(query, sqlConnection);
+            Object returnObject = sqlCommand.ExecuteScalar();
+            sqlConnection.Close();
+            if (returnObject == null)
+                return null;
+
+            else
+                return returnObject.ToString();
+        }
+        /// <summary>
+        /// returns specified value from database using WHERE statement with one argument using LIKE
+        /// </summary>
+        /// <param name="select"></param>
+        /// <param name="from"></param>
+        /// <param name="whereColumnName"></param>
+        /// <param name="whereValue"></param>
+        /// <returns></returns>
+        public String getValueLike(string select, string from, string whereColumnName, string whereValue)
+        {
+            String query = "SELECT " + select + " FROM " + from + " ";
+            query += "WHERE " + whereColumnName + " LIKE " + whereValue;
+
+            sqlConnection.Open();
+            OracleCommand sqlCommand = new OracleCommand(query, sqlConnection);
+            Object returnObject = sqlCommand.ExecuteScalar();
+            sqlConnection.Close();
+            if (returnObject == null)
+                return null;
+
+            else
+                return returnObject.ToString();
+        }
     }
 }
