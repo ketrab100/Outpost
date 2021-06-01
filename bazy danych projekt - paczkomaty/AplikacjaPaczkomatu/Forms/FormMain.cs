@@ -272,7 +272,7 @@ namespace AplikacjaPaczkomatu.Forms
 
             for (int q = 0; q <= takenLockers.Rows.Count; q++)
             {
-                if (currentLocker == (int)takenLockers.Rows[q][0])
+                if (currentLocker == Int32.Parse(takenLockers.Rows[q][0].ToString()))
                     currentLocker++;
 
                 else

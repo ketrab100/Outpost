@@ -1,3 +1,24 @@
+drop table logs;
+drop table parcels;
+drop table users;
+drop table warehouses;
+drop table parcellockers;
+drop table locations;
+drop table parceltypes;
+drop table parcellockertypes;
+drop table statuses;
+drop sequence location_id_seq;
+drop sequence user_id_seq;
+drop sequence warehouse_id_seq;
+drop sequence parcellocker_id_seq;
+drop sequence parcellockertype_id_seq;
+drop sequence parceltype_id_seq;
+drop sequence status_id_seq;
+drop view courierparcelview;
+drop view clientparcelview;
+drop view personalview;
+
+
 --------------------------------------------------------
 --  File created - Tuesday-May-25-2021   
 --------------------------------------------------------
@@ -182,6 +203,7 @@ Insert into PARCELLOCKERTYPES (PARCELLOCKERTYPE_ID,NAME,SIZEALOCKERS,SIZEBLOCKER
 
 Insert into PARCELS (CODE,TYPEID,COURIERID,LORRYDRIVERID,SENDERID,PARCELLOCKERID,DESTINATIONPARCELLOCKERID,WAREHOUSEID,SENTDATE,STATUSID,PICKUPCODE,LOCKERNUMBER) values ('PA++210521WRO2N1','7',null,null,'2',null,'2',null,null,'8','6155988',null);
 Insert into PARCELS (CODE,TYPEID,COURIERID,LORRYDRIVERID,SENDERID,PARCELLOCKERID,DESTINATIONPARCELLOCKERID,WAREHOUSEID,SENTDATE,STATUSID,PICKUPCODE,LOCKERNUMBER) values ('PA210521WAR1N1','1',null,null,'2','1','3',null,to_date('22/05/21','RR/MM/DD'),'1','5730236','1');
+INSERT INTO Parcels VALUES ('PARC134321', 8, NULL, NULL, 2, NULL, 1, NULL, NULL, 8, 2134848, NULL);
 
 Insert into PARCELTYPES (PARCELTYPE_ID,NAME,WIDTH,LENGTH,HEIGHT,MAXWEIGHT,PRIORITY,COST) values ('1','A','10','20','60','10','1','5');
 Insert into PARCELTYPES (PARCELTYPE_ID,NAME,WIDTH,LENGTH,HEIGHT,MAXWEIGHT,PRIORITY,COST) values ('2','B','20','30','60','20','1','10');
@@ -212,10 +234,6 @@ Insert into USERS (USER_ID,FIRSTNAME,LASTNAME,LOGIN,PASSWORD,PHONENUMBER,EMAIL,U
 Insert into WAREHOUSES (WAREHOUSE_ID,LOCATIONID,NAME) values ('1','1','Wroclaw1');
 Insert into WAREHOUSES (WAREHOUSE_ID,LOCATIONID,NAME) values ('2','3','Warszawa1');
 
-/
-
-
-/
 --------------------------------------------------------
 --  FOREIGN KEYS
 --------------------------------------------------------
