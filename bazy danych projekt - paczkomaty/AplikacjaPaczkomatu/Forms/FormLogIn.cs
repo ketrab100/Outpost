@@ -44,7 +44,7 @@ namespace AplikacjaPaczkomatu.Forms
                     this.Hide();
                     FormCourier formMain = new FormCourier(databaseConnection.getValue("User_Id", "Users", columnName, columnValue), parcelLockerId);
                     formMain.Closed += (s, args) => this.Close();
-                    formMain.Show();
+                    formMain.ShowDialog();
                 }
                 else
                 {

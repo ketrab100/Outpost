@@ -42,7 +42,7 @@ namespace Test.Models
             parcelCode += getValue("Name", "ParcelTypes", "ParcelType_Id", p.Destination.ToString());
             parcelCode += "N" + (Int32.Parse(getValueLike("COUNT(Code)", "Parcels", "Code", "'" + parcelCode + "%'")) + 1).ToString();
 
-            String query = "INSERT INTO PARCELS VALUES ( '" +parcelCode +"' ," + p.Type + ", NULL" + ", NULL ," + u.Id +  ",NULL," + p.Destination + ", NULL" + ", NULL, 7, " + p.PickUpCode + ", NULL)";
+            String query = "INSERT INTO PARCELS VALUES ( '" +parcelCode +"' ," + p.Type + ", NULL" + ", NULL ," + u.Id +  ",NULL," + p.Destination + ", NULL" + ", NULL, 8, " + p.PickUpCode + ", NULL)";
 
             sqlConnection.Open();
             OracleCommand commandInsertBook = new OracleCommand(query, sqlConnection);
