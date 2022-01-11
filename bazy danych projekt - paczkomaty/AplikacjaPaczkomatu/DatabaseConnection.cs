@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
-using Oracle.ManagedDataAccess.Client;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -15,8 +14,7 @@ namespace AplikacjaPaczkomatu
     /// </summary>
     public class DatabaseConnection
     {
-        //private readonly SqlConnection sqlConnection = new SqlConnection(Properties.Resources.ConnectionString);
-        private readonly OracleConnection sqlConnection = new OracleConnection(Properties.Resources.ConnectionStringOracle);
+        private readonly SqlConnection sqlConnection = new SqlConnection(Properties.Resources.ConnectionString);
         /// <summary>
         /// returns all values in selected table
         /// </summary>
@@ -28,7 +26,7 @@ namespace AplikacjaPaczkomatu
             string query = "SELECT " + tableName + ".* FROM " + tableName + " ";
 
             //get query from database
-            OracleDataAdapter sqlDataAdapter = new OracleDataAdapter(query, sqlConnection);
+            SqlDataAdapter sqlDataAdapter = new SqlDataAdapter(query, sqlConnection);
             DataTable dataTable = new DataTable();
             sqlDataAdapter.Fill(dataTable);
 
@@ -47,7 +45,7 @@ namespace AplikacjaPaczkomatu
             string query = "SELECT DISTINCT " + columnName + " FROM " + tableName + " ";
 
             //get query from database
-            OracleDataAdapter sqlDataAdapter = new OracleDataAdapter(query, sqlConnection);
+            SqlDataAdapter sqlDataAdapter = new SqlDataAdapter(query, sqlConnection);
             DataTable dataTable = new DataTable();
             sqlDataAdapter.Fill(dataTable);
 
@@ -62,7 +60,7 @@ namespace AplikacjaPaczkomatu
         public DataTable getTableSpecyficQuery(string query)
         {
             //get query from database
-            OracleDataAdapter sqlDataAdapter = new OracleDataAdapter(query, sqlConnection);
+            SqlDataAdapter sqlDataAdapter = new SqlDataAdapter(query, sqlConnection);
             DataTable dataTable = new DataTable();
             sqlDataAdapter.Fill(dataTable);
 
@@ -88,7 +86,7 @@ namespace AplikacjaPaczkomatu
             }
 
             sqlConnection.Open();
-            OracleCommand sqlCommand = new OracleCommand(query, sqlConnection);
+            SqlCommand sqlCommand = new SqlCommand(query, sqlConnection);
             Object returnObject = sqlCommand.ExecuteScalar();
             sqlConnection.Close();
             if (returnObject == null)
@@ -111,7 +109,7 @@ namespace AplikacjaPaczkomatu
             query += "WHERE " + whereColumnName + " = " + whereValue;
 
             sqlConnection.Open();
-            OracleCommand sqlCommand = new OracleCommand(query, sqlConnection);
+            SqlCommand sqlCommand = new SqlCommand(query, sqlConnection);
             Object returnObject = sqlCommand.ExecuteScalar();
             sqlConnection.Close();
             if (returnObject == null)
@@ -134,7 +132,7 @@ namespace AplikacjaPaczkomatu
             query += "WHERE " + whereColumnName + " LIKE " + whereValue;
 
             sqlConnection.Open();
-            OracleCommand sqlCommand = new OracleCommand(query, sqlConnection);
+            SqlCommand sqlCommand = new SqlCommand(query, sqlConnection);
             Object returnObject = sqlCommand.ExecuteScalar();
             sqlConnection.Close();
             if (returnObject == null)
@@ -153,7 +151,7 @@ namespace AplikacjaPaczkomatu
             String query = "INSERT INTO " + insert + " VALUES " + values;
 
             sqlConnection.Open();
-            OracleCommand sqlInsert = new OracleCommand(query, sqlConnection);
+            SqlCommand sqlInsert = new SqlCommand(query, sqlConnection);
             sqlInsert.ExecuteNonQuery();
 
             sqlConnection.Close();
@@ -169,7 +167,7 @@ namespace AplikacjaPaczkomatu
             String query = "DELETE FROM " + from + " WHERE " + whereColumn + " = " + whereValue;
 
             sqlConnection.Open();
-            OracleCommand sqlDelete = new OracleCommand(query, sqlConnection);
+            SqlCommand sqlDelete = new SqlCommand(query, sqlConnection);
             sqlDelete.ExecuteNonQuery();
 
             sqlConnection.Close();
@@ -187,7 +185,7 @@ namespace AplikacjaPaczkomatu
             String query = "UPDATE " + update + " SET " + setColumn + " = " + setValue + " WHERE " + whereColumn + " = " + whereValue;
 
             sqlConnection.Open();
-            OracleCommand sqlUpdate = new OracleCommand(query, sqlConnection);
+            SqlCommand sqlUpdate = new SqlCommand(query, sqlConnection);
             sqlUpdate.ExecuteNonQuery();
 
             sqlConnection.Close();

@@ -190,7 +190,7 @@ namespace AplikacjaPaczkomatu.Forms
             if (send)
             {
                 int lockerNumber = findLockerNumber();
-                databaseConnection.updateElement("Parcels", "SentDate", "(SELECT TO_DATE (SYSDATE, 'YYYY-MM-DD') FROM DUAL)", "Code", "'" + currentPackageCode + "'");
+                databaseConnection.updateElement("Parcels", "SentDate", "(SELECT CONVERT (date, GETDATE()))", "Code", "'" + currentPackageCode + "'");
                 databaseConnection.updateElement("Parcels", "LockerNumber", lockerNumber.ToString(), "Code", "'" + currentPackageCode + "'");
                 databaseConnection.updateElement("Parcels", "StatusId", "1", "Code", "'" + currentPackageCode + "'");
                 databaseConnection.updateElement("Parcels", "ParcelLockerId", parcelLockerId.ToString(), "Code", "'" + currentPackageCode + "'");

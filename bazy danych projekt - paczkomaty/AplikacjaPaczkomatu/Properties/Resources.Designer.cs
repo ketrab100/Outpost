@@ -61,7 +61,7 @@ namespace AplikacjaPaczkomatu.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Data Source=DESKTOP-CJ1SR5M\SUPERCIUPERSQL;Database=PaczkomatyKredek;Trusted_Connection=yes.
+        ///   Looks up a localized string similar to Data Source=SUPERCIUPERPC\SUPERCIUPERSQL;Database=OutpostDB;Trusted_Connection=yes.
         /// </summary>
         internal static string ConnectionString {
             get {

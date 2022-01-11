@@ -398,9 +398,12 @@ namespace AplikacjaPaczkomatu.Forms
             this.Controls.Add(this.panelOpenLockerSend);
             this.Controls.Add(this.panelCode);
             this.Controls.Add(this.panelAction);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Margin = new System.Windows.Forms.Padding(2);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "FormMain";
-            this.Text = "FormMain";
+            this.Text = "Parcellocker WRO1";
             this.panelAction.ResumeLayout(false);
             this.panelAction.PerformLayout();
             this.panelCode.ResumeLayout(false);
